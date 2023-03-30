@@ -62,7 +62,7 @@ export default function About() {
 				<div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
 					<div className="absolute inset-0 -z-10 overflow-hidden">
 						<svg
-							className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+							className="absolute left-[max(50%,25rem)] top-0 h-[120rem] w-[50rem] sm:w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
 							aria-hidden="true"
 						>
 							<defs>
@@ -82,7 +82,7 @@ export default function About() {
 								<div className="lg:max-w-lg">
 									<p className="text-base font-semibold leading-7 text-indigo-600">Transcend dimensions</p>
 									<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">Impigo Design&apos;s Pvt. Ltd.</h1>
-									<p className="mt-6 text-lg leading-8 text-gray-100">
+									<p className="mt-6 text-base sm:text-lg leading-8 text-gray-100">
 										Impigo Design&apos;s Pvt. Ltd. is a leading provider of services related to Design. Our team of experienced 3D artists and
 										engineers can create highly detailed, photo-realistic models of your products, that accurately represent their look, feel, and
 										functionality.
@@ -90,7 +90,7 @@ export default function About() {
 								</div>
 							</div>
 						</div>
-						<div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+						<div className="lg:-ml-12 -mt-12 p-1 scale-110 sm:scale-100 lg:hover:scale-110 transition-all md:p-8 sm:pl-1 max-w-2xl sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
 							{/* <img
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
             src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"

@@ -1,3 +1,4 @@
+import { ModelViewer } from '@/components';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
@@ -10,9 +11,9 @@ export default function Model({ model }) {
 				<title>Model Viewer for {id}</title>
 			</Head>
 
-			<main>
-				<h1>Model Viewer for {id}</h1>
-				<p>{model}</p>
+			<main className="min-h-[92vh] overflow-hidden">
+				<h1 className="text-center font-bold text-2xl">Model Viewer for {id}</h1>
+				<ModelViewer />
 			</main>
 		</>
 	);
