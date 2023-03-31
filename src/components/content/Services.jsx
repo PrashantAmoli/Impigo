@@ -28,26 +28,43 @@ const features = [
 
 export default function Services() {
 	return (
-		<div className="flex flex-col justify-center items-center overflow-x-hidden">
-			<h1>Services</h1>
+		<div className="flex flex-col justify-center items-center overflow-x-hidden px-2 gap-20 container mx-auto">
+			<h1 className="text-red-500">Services</h1>
 
-			<h2 className="text-center">Bring your products to life with 3D</h2>
+			<h2 className="sm:text-center text-2xl sm:text-4xl font-bold">Bring your products to life with 3D</h2>
 
-			<div className="mockup-window border bg-base-300 w-11/12 max-w-4xl">
-				<Image src={demoImage} width={300} height={300} alt="image" className="object-cover w-full h-full" />
+			<div className="flex flex-col sm:flex-row-reverse gap-5 sm:gap-7">
+				<div className="flex flex-col justify-center gap-6">
+					<h2 className="text-3xl sm:text-4xl font-bold">Create personalized 3D experiences</h2>
+					<h2 className="sm:text-lg font-semibold max-w-2xl">
+						Boost your brand by launch 3D marketing campaigns that can be customized and updated with new content to get users to keep coming back
+					</h2>
+				</div>
+
+				<div className="mockup-window border border-base-300 bg-base-300/20 w-11/12 max-w-4xl scale-95 hover:scale-100 transition-all">
+					<Image src={demoImage} width={300} height={300} alt="image" className="object-cover w-full h-full" />
+				</div>
 			</div>
 
-			<h2 className="text-center">Create personalized 3D experiences</h2>
-			<h2 className="text-center">
-				Marketing: Boost your brand by launch 3D marketing campaigns that can be customized and updated with new content to get users to keep coming
-				back
-			</h2>
-
-			<div className="mockup-phone border-primary w-10/12 max-w-xs h-[66vh] overflow-hidden">
-				<div className="camera"></div>
-				<div className="display w-full h-[65vh] overflow-hidden pb-8">
-					<Image src={interior1Image} width={300} height={600} alt="image" className="object-cover rounded-3xl w-full h-full" />
+			<div className="flex flex-col sm:flex-row gap-5 sm:gap-7">
+				<div className="flex flex-col justify-center gap-6">
+					<h2 className="text-3xl sm:text-4xl font-bold">Create personalized 3D experiences</h2>
+					<h2 className="sm:text-lg font-semibold max-w-2xl">
+						Boost your brand by launch 3D marketing campaigns that can be customized and updated with new content to get users to keep coming back
+					</h2>
 				</div>
+
+				<div className="mockup-phone border-primary mx-auto scale-75 hover:scale-90 sm:scale-90 sm:hover:scale-95 transition-all shadow-blue-600/30 hover:shadow-blue-600/30 shadow-xl hover:shadow-2xl">
+					<div className="camera"></div>
+					<div className="display">
+						<div className="artboard artboard-demo phone-1">
+							<Image src={interior1Image} width={300} height={600} alt="image" className="object-cover rounded-3xl w-full h-full" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="mockup-window border bg-base-300/20 border-base-100 w-11/12 max-w-4xl shadow_blue hover:scale-105 transition-all">
+				<Image src={demoImage} width={300} height={300} alt="image" className="object-cover w-full h-full" />
 			</div>
 		</div>
 	);

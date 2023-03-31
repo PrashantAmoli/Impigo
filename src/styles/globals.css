@@ -9,6 +9,9 @@
 	.gradient_white {
 		@apply bg-gradient-to-tr from-white/20 via-transparent to-blue-700/50;
 	}
+	.shadow_blue {
+		@apply shadow-blue-600/30 hover:shadow-blue-600/30 shadow-xl hover:shadow-2xl;
+	}
 }
 
 .hide-scrollbar::-webkit-scrollbar {

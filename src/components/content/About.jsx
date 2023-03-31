@@ -96,7 +96,7 @@ export default function About() {
             src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
             alt=""
           /> */}
-							<div className="mockup-window border bg-base-300 w-full h-fit sticky">
+							<div className="mockup-window border border-base-300 gradient_white shadow_blue w-full h-fit sticky">
 								<Image src={demoImage} width={300} height={300} alt="image" className="object-cover w-full h-full" />
 							</div>
 						</div>
