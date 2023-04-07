@@ -14,11 +14,9 @@ export default function Welcome() {
 								<ModelViewer src={'/models/model1.glb'} />
 							</div> */}
 
-							<div className="flex flex-col gap-7 ">
+							<div className="flex flex-col gap-7 pt-36 pb-16 lg:p-0">
 								<h1 className="text-4xl sm:text-5xl font-bold tracking-wider font-SpaceX">IMPIGO DESIGNS</h1>
-								<div className="flex flex-col gap-2 sm:text-lg sm:tracking-widest font-SpaceX">
-									<p>aDDING CREaTIVITY TO YOUR TRIUMPH</p>
-								</div>
+								<p className="flex flex-col gap-2 sm:text-lg sm:tracking-widest capitalize font-semibold">ADDING CREATIVITY TO YOUR TRIUMPH</p>
 								<div className="flex gap-5 items-center">
 									<Link href="/models" className="">
 										<button className="btn btn-primary">Explore</button>

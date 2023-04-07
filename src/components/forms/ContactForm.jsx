@@ -195,13 +195,13 @@ export default function ContactForm() {
 
 			{/* Put this part before </body> tag */}
 			<input type="checkbox" id="my-modal-6" className="modal-toggle" />
-			<div className="modal modal-bottom sm:modal-middle">
-				<div className="modal-box">
+			<div className="modal modal-bottom sm:modal-middle gradient_main backdrop-blur-sm">
+				<div className="modal-box gradient_white backdrop-blur-xl">
 					<h3 className="font-bold text-lg">Oops! Some error occured</h3>
-					<p className="py-4">Please contact info@impigodesigns.com directly instead with your queries while we work on fixing the problem</p>
+					<p className="py-4">Please contact info@impigo.com directly instead with your queries while we work on fixing the problem</p>
 					<div className="modal-action">
-						<label htmlFor="my-modal-6" className="btn">
-							Yay!
+						<label htmlFor="my-modal-6" className="btn btn-outline hover:bg-transparent hover:scale-105 hover:text-white py-1">
+							Okay
 						</label>
 					</div>
 				</div>

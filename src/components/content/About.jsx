@@ -52,7 +52,7 @@ const content = [
 
 export default function About() {
 	return (
-		<section className="w-full min-h-screen pt-16">
+		<section className="w-full min-h-screen">
 			{/* Content Sections - Sticky Scroll */}
 			<section className="overflow-y-scroll h-screen scroll-smooth w-full hide-scrollbar">
 				<div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
