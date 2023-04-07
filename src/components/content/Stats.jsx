@@ -59,13 +59,13 @@ export default function Stats() {
 							</p>
 							<div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
 								<Link
-									href="/"
+									href="/contact"
 									className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
 								>
-									Get started
+									Contact Us
 								</Link>
-								<Link href="/" className="text-sm font-semibold leading-6 text-white">
-									Learn more <span aria-hidden="true">→</span>
+								<Link href="/gallery" className="text-sm font-semibold leading-6 text-white">
+									Explore <span aria-hidden="true">→</span>
 								</Link>
 							</div>
 						</div>

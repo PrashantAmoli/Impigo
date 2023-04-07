@@ -52,7 +52,7 @@ export default function GalleryPage() {
 				<title>Gallery @ Impigo Design&apos;s</title>
 			</Head>
 
-			<main className="w-full pt-16 pb-7">
+			<main className="w-full pb-7">
 				<h2 className="text-center font-bold text-2xl pt-4">3D Product Demo List</h2>
 
 				<section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3 py-9 sm:p-9 gap-9 justify-items-center">

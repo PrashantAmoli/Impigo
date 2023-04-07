@@ -15,10 +15,9 @@ export default function Welcome() {
 							</div> */}
 
 							<div className="flex flex-col gap-7 ">
-								<h1 className="text-5xl font-bold">Impigo Designs</h1>
-								<div className="flex flex-col gap-2 ">
-									<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi quasi.</p>
-									<p>In deleniti eaque aut repudiandaeet a id nisi.</p>
+								<h1 className="text-4xl sm:text-5xl font-bold tracking-wider font-SpaceX">IMPIGO DESIGNS</h1>
+								<div className="flex flex-col gap-2 sm:text-lg sm:tracking-widest font-SpaceX">
+									<p>aDDING CREaTIVITY TO YOUR TRIUMPH</p>
 								</div>
 								<div className="flex gap-5 items-center">
 									<Link href="/models" className="">

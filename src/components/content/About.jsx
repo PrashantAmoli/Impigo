@@ -111,7 +111,7 @@ export default function About() {
 											<li className="flex gap-x-3" key={index}>
 												{item.icon}
 												<span>
-													<strong className="font-semibold text-gray-100">{item.name}</strong>
+													<strong className="font-semibold text-gray-100">{item.name}: </strong>
 													{item.description}
 												</span>
 											</li>

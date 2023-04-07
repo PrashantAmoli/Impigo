@@ -8,7 +8,7 @@ export default function ServicesPage() {
 				<title>Services by Impigo Design&apos;s</title>
 			</Head>
 
-			<main className="w-full overflow-x-hidden pt-16 pb-10">
+			<main className="w-full overflow-x-hidden pb-10">
 				<Services />
 			</main>
 		</>
