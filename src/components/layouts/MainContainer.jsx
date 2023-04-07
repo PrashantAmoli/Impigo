@@ -43,8 +43,8 @@ export default function MainContainer({ children }) {
 										</Link>
 									</li>
 									<li>
-										<Link href="/services" className="">
-											Shopify Integration
+										<Link href="/services" className="animate-pulse">
+											Upcomming...
 										</Link>
 									</li>
 								</ul>
@@ -63,8 +63,7 @@ export default function MainContainer({ children }) {
 					</div>
 					<Link href="/" className="btn btn-ghost hover:backdrop-blur normal-case font-SpaceX text-lg sm:text-xl px-0 truncate sm:tracking-wider">
 						<Image src="/ImpigoLogo.png" width={50} height={80} alt="icon" className="w-6 sm:w-7" />
-						IMPIGO
-						<span className="hidden sm:flex">DESIGNS</span>
+						IMPIGO <span className="hidden sm:flex font-SpaceX pl-1.5">{` `}DESIGNS</span>
 					</Link>
 				</div>
 
@@ -94,8 +93,8 @@ export default function MainContainer({ children }) {
 									</Link>
 								</li>
 								<li>
-									<Link href="/services" className="">
-										Shopify
+									<Link href="/services" className="animate-pulse">
+										Upcomming...
 									</Link>
 								</li>
 							</ul>
@@ -113,7 +112,7 @@ export default function MainContainer({ children }) {
 					</ul>
 				</div>
 
-				<div className="navbar-end hidden xs:flex">
+				<div className="navbar-end">
 					<Link href="/" className="btn btn-ghost">
 						Order
 					</Link>

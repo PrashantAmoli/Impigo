@@ -8,16 +8,16 @@ export default function Welcome() {
 			<div className="relative">
 				<GradientBox>
 					<div className="absolute z-10 hero min-h-screen">
-						<div className="hero-content -mt-10 flex-col-reverse justify-evenly gap-7 sm:gap-1 lg:flex-row-reverse w-full max-w-7xl">
+						<div className="hero-content -mt-10 flex-col-reverse justify-evenly gap-7 sm:gap-1 lg:flex-row-reverse lg:items-start w-full max-w-7xl">
 							<Image src="/ImpigoLogo.png" width={500} height={800} alt="icon" className="max-w-xs rounded-lg" />
 							{/* <div className="flex flex-col items-center relative">
 								<ModelViewer src={'/models/model1.glb'} />
 							</div> */}
 
-							<div className="flex flex-col gap-7 pt-36 pb-16 lg:p-0">
+							<div className="flex flex-col gap-5 pt-20 pb-16 lg:p-0">
 								<h1 className="text-4xl sm:text-5xl font-bold tracking-wider font-SpaceX">IMPIGO DESIGNS</h1>
 								<p className="flex flex-col gap-2 sm:text-lg sm:tracking-widest capitalize font-semibold">ADDING CREATIVITY TO YOUR TRIUMPH</p>
-								<div className="flex gap-5 items-center">
+								<div className="flex mt-4 gap-6 items-center">
 									<Link href="/models" className="">
 										<button className="btn btn-primary">Explore</button>
 									</Link>
