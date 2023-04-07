@@ -19,11 +19,7 @@ export default function Home() {
 			<main>
 				<Welcome />
 
-				<Services />
-
 				<Stats />
-
-				<About />
 			</main>
 		</>
 	);

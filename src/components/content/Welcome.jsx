@@ -9,7 +9,7 @@ export default function Welcome() {
 				<GradientBox>
 					<div className="absolute z-10 hero min-h-screen">
 						<div className="hero-content -mt-10 flex-col-reverse justify-evenly gap-7 sm:gap-1 lg:flex-row-reverse w-full max-w-7xl">
-							<Image src="/icon.jfif" width={250} height={350} alt="icon" className="max-w-sm rounded-lg shadow-2xl" />
+							<Image src="/ImpigoLogo.png" width={500} height={800} alt="icon" className="max-w-xs rounded-lg" />
 							{/* <div className="flex flex-col items-center relative">
 								<ModelViewer src={'/models/model1.glb'} />
 							</div> */}

@@ -28,8 +28,8 @@ const features = [
 
 export default function Services() {
 	return (
-		<div className="flex flex-col justify-center items-center overflow-x-hidden px-2 gap-20 container mx-auto">
-			<h1 className="text-red-500">Services</h1>
+		<div className="flex flex-col justify-center items-center overflow-hidden px-2 py-12 gap-20 container mx-auto">
+			<h1 className="text-red-500 text-2xl font-bold">&quot;Decades of real implementation experience form the backbone of our solutions.&quot;</h1>
 
 			<h2 className="sm:text-center text-2xl sm:text-4xl font-bold">Bring your products to life with 3D</h2>
 

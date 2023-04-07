@@ -1,62 +1,58 @@
 import Image from 'next/image';
-import { SiLinkedin } from 'react-icons/si';
+import { SiUnity, SiNintendogamecube } from 'react-icons/si';
+import { MdAnimation, MdArchitecture } from 'react-icons/md';
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid';
 import demoImage from '@/assets/images/demo.gif';
 
 const features = [
 	{
-		name: 'Push to deploy.',
+		name: '3D Product Designs',
 		description:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-		icon: CloudArrowUpIcon,
+		icon: <SiUnity className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
-		name: 'SSL certificates.',
+		name: 'AR Integrations',
 		description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-		icon: LockClosedIcon,
+		icon: <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
-		name: 'Database backups.',
+		name: 'CAD Model',
 		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
-		icon: ServerIcon,
+		icon: <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
+	{
+		name: 'Game Assets',
+		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		icon: <SiNintendogamecube className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
+	},
+	{
+		name: 'Fashion',
+		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		icon: <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
+	},
+	{
+		name: 'Architecture',
+		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		icon: <MdArchitecture className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
+	},
+	{
+		name: 'Animation',
+		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		icon: <MdAnimation className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
+	},
+];
+
+const content = [
+	'We pride ourselves on our commitment to quality, our attention to detail, and our ability to work closely with our clients to ensure that their needs are met at every step of the design process. We understand that every project is unique, and we take the time to listen to our client&apos;s needs and goals before developing a customized solution to meet their specific requirements.',
+	'Our team of experienced designers and engineers uses the latest software and technology to create stunning 3D models of your products, buildings, or other designs. With our expertise in 3D modeling, we can create realistic and accurate models that allow you to visualize your ideas before they become a reality',
+	'In addition to our 3D modeling design services, we also offer a range of complementary services, including prototyping, testing, and production. With our end-to-end design capabilities, we can help you take your ideas from concept to completion, ensuring that your final product meets your exact specifications and is ready for market.',
+	"When it comes to finding the perfect 3D modeling design service for your needs, it's important to choose a company that has the experience, skills, and technology necessary to turn your vision into a reality. Our company provides high-quality 3D modeling design services to clients. wide range of industries, from product design to architecture and everything in between.",
 ];
 
 export default function About() {
 	return (
-		<div className="w-full min-h-screen">
-			<div className="overflow-hidden py-24 sm:py-32">
-				<div className="mx-auto max-w-7xl px-6 lg:px-8">
-					<div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-						<div className="lg:pr-8 lg:pt-4">
-							<div className="lg:max-w-lg">
-								<h2 className="text-base font-semibold leading-7 text-indigo-600">Transcend dimensions</h2>
-								<p className="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl">A better workflow</p>
-								<p className="mt-6 text-lg leading-8 text-gray-200">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate
-									blanditiis ratione.
-								</p>
-								<dl className="mt-10 max-w-xl space-y-8 text-base leading-7 lg:max-w-none">
-									{features.map(feature => (
-										<div key={feature.name} className="relative pl-9">
-											<dt className="inline font-semibold ">
-												<feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-600" aria-hidden="true" />
-												{feature.name}
-											</dt>{' '}
-											<dd className="inline text-gray-200">{feature.description}</dd>
-										</div>
-									))}
-								</dl>
-							</div>
-						</div>
-
-						<div className="mockup-window border bg-base-300 w-full h-fit sticky">
-							<Image src={demoImage} width={300} height={300} alt="image" className="object-cover w-full h-full" />
-						</div>
-					</div>
-				</div>
-			</div>
-
+		<section className="w-full min-h-screen pt-16">
 			{/* Content Sections - Sticky Scroll */}
 			<section className="overflow-y-scroll h-screen scroll-smooth w-full hide-scrollbar">
 				<div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -80,7 +76,9 @@ export default function About() {
 						<div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
 							<div className="lg:pr-4">
 								<div className="lg:max-w-lg">
-									<p className="text-base font-semibold leading-7 text-indigo-600">Transcend dimensions</p>
+									<p className="text-base font-semibold leading-7 text-indigo-600">
+										&quot;We believe in the power of collaboration and teamwork to achieve our goals.&quot;
+									</p>
 									<h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">Impigo Design&apos;s Pvt. Ltd.</h1>
 									<p className="mt-6 text-base sm:text-lg leading-8 text-gray-100">
 										Impigo Design&apos;s Pvt. Ltd. is a leading provider of services related to Design. Our team of experienced 3D artists and
@@ -109,35 +107,23 @@ export default function About() {
 										buy it.
 									</p>
 									<ul role="list" className="mt-8 space-y-8 text-gray-100">
-										<li className="flex gap-x-3">
-											<CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-											<span>
-												<strong className="font-semibold text-gray-100">Push to deploy.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing
-												elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
-											</span>
-										</li>
-										<li className="flex gap-x-3">
-											<LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-											<span>
-												<strong className="font-semibold text-gray-100">SSL certificates.</strong> Anim aute id magna aliqua ad ad non deserunt sunt.
-												Qui irure qui lorem cupidatat commodo.
-											</span>
-										</li>
-										<li className="flex gap-x-3">
-											<ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
-											<span>
-												<strong className="font-semibold text-gray-100">Database backups.</strong> Ac tincidunt sapien vehicula erat auctor
-												pellentesque rhoncus. Et magna sit morbi lobortis.
-											</span>
-										</li>
+										{features.map((item, index) => (
+											<li className="flex gap-x-3" key={index}>
+												{item.icon}
+												<span>
+													<strong className="font-semibold text-gray-100">{item.name}</strong>
+													{item.description}
+												</span>
+											</li>
+										))}
 									</ul>
-									<p className="mt-8">
-										Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus
-										diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac
-										lorem vel integer orci.
-									</p>
+									{content.map((item, index) => (
+										<p className="mt-8" key={index}>
+											{item}
+										</p>
+									))}
 
-									<h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-100"></h2>
+									{/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-100"></h2>
 									<div className="flex items-center gap-x-6">
 										<img className="h-16 w-16 rounded-full" src="/images/logo.png" alt="" />
 										<div>
@@ -152,13 +138,13 @@ export default function About() {
 										Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae
 										interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus
 										ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.
-									</p>
+									</p> */}
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-		</div>
+		</section>
 	);
 }

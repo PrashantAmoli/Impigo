@@ -45,20 +45,20 @@ const ProductsList = [
 	},
 ];
 
-export default function ModelsPage() {
+export default function GalleryPage() {
 	return (
 		<>
 			<Head>
-				<title>Model Demo by Impigo Design&apos;s</title>
+				<title>Gallery @ Impigo Design&apos;s</title>
 			</Head>
 
-			<main>
+			<main className="w-full pt-16 pb-7">
 				<h2 className="text-center font-bold text-2xl pt-4">3D Product Demo List</h2>
 
 				<section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3 py-9 sm:p-9 gap-9 justify-items-center">
 					{ProductsList.map((item, index) => (
 						<Link
-							href={`/models/${item.id}`}
+							href={`/gallery/${item.id}`}
 							key={index}
 							className="card w-full h-80 gradient_white shadow-blue-600/30 hover:shadow-blue-600/50 shadow-xl hover:shadow-2xl transition-all hover:scale-105  overflow-hidden"
 						>

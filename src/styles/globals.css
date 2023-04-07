@@ -7,7 +7,7 @@
 		@apply bg-gradient-to-tr from-slate-700/20 via-transparent to-blue-700/50;
 	}
 	.gradient_white {
-		@apply bg-gradient-to-tr from-white/20 via-transparent to-blue-700/50;
+		@apply bg-gradient-to-tr from-slate-900/95 via-sky-800/95 to-blue-900/80;
 	}
 	.shadow_blue {
 		@apply shadow-blue-600/30 hover:shadow-blue-600/30 shadow-xl hover:shadow-2xl;
