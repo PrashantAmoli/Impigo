@@ -191,6 +191,11 @@ export default function ContactForm() {
 						</button>
 					</div>
 				</form>
+
+				<h4 className="text-center my-2 text-sm animate-pulse">Working hours 10AM to 6PM Mon-Fri</h4>
+				<a href="mailto:info@impigo.com">
+					<h4 className="text-center my-2 text-sm animate-pulse">info@impigo.com</h4>
+				</a>
 			</div>
 
 			{/* Put this part before </body> tag */}

@@ -7,38 +7,37 @@ import demoImage from '@/assets/images/demo.gif';
 const features = [
 	{
 		name: '3D Product Designs',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+		description: '',
 		icon: <SiUnity className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
 		name: 'AR Integrations',
-		description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+		description: '',
 		icon: <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
 		name: 'CAD Model',
-		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		description: '',
 		icon: <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
 		name: 'Game Assets',
-		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		description: '',
 		icon: <SiNintendogamecube className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
 		name: 'Fashion',
-		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		description: '',
 		icon: <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
 		name: 'Architecture',
-		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		description: '',
 		icon: <MdArchitecture className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 	{
 		name: 'Animation',
-		description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+		description: '',
 		icon: <MdAnimation className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />,
 	},
 ];
