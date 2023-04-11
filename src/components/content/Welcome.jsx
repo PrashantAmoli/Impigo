@@ -20,12 +20,12 @@ export default function Welcome() {
 									<h1 className="text-4xl sm:text-5xl font-bold tracking-wider font-SpaceX">IMPIGO DESIGNS</h1>
 									<p className="flex flex-col gap-2 sm:text-lg sm:tracking-widest capitalize font-semibold">ADDING CREATIVITY TO YOUR TRIUMPH</p>
 									<div className="flex mt-4 gap-6 items-center">
-										<Link href="/models" className="">
+										<Link href="/services" className="">
 											<button className="btn btn-primary">Explore</button>
 										</Link>
 
 										<Link href="/home" className=" font-semibold leading-6 text-gray-300">
-											Learn more <span aria-hidden="true">→</span>
+											Speak with us <span aria-hidden="true">→</span>
 										</Link>
 									</div>
 								</div>

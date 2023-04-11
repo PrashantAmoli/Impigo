@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { RiInstagramFill, RiWhatsappFill } from 'react-icons/ri';
+import { MdAttachEmail } from 'react-icons/md';
 
 export default function MainContainer({ children }) {
 	return (
@@ -137,6 +138,9 @@ export default function MainContainer({ children }) {
 				<div className="p-1.5 w-full">
 					<span className="footer-title">Socials</span>
 					<div className="grid grid-flow-col justify-items-end px-3 max-w-xs gap-5 text-3xl w-full ">
+						<Link href="mailto:info@impigo.com" className="transition-all text-red-500 hover:text-blue-500 scale-105 hover:scale-110">
+							<MdAttachEmail />
+						</Link>
 						<Link
 							href="https://instagram.com/impigo.designs?igshid=YmMyMTA2M2Y="
 							className="transition-all text-red-500 hover:text-blue-500 scale-105 hover:scale-110"
