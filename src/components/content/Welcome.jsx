@@ -35,6 +35,10 @@ export default function Welcome() {
 				</div>
 			</div>
 
+			<h2 className="text-center text-red-500 text-xl sm:text-2xl font-semibold my-11">
+				&quot;We believe in the power of collaboration and teamwork to achieve our goals.&quot;
+			</h2>
+
 			<div className="mockup-window border bg-base-300/20 border-base-100 w-11/12 max-w-4xl shadow_blue hover:scale-105 transition-all mx-auto overflow-hidden">
 				<Image src={demoImage} width={500} height={400} alt="image" className="object-cover w-full h-full" />
 			</div>
