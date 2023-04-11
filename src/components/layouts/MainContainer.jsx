@@ -113,7 +113,7 @@ export default function MainContainer({ children }) {
 				</div>
 
 				<div className="navbar-end">
-					<Link href="/" className="btn btn-ghost">
+					<Link href="/contact" className="btn btn-ghost">
 						Order
 					</Link>
 				</div>

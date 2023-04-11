@@ -80,5 +80,70 @@
 		"Our team of experienced designers and engineers uses the latest software and technology to create stunning 3D models of your products, buildings, or other designs. With our expertise in 3D modeling, we can create realistic and accurate models that allow you to visualize your ideas before they become a reality.",
 		"In addition to our 3D modeling design services, we also offer a range of complementary services, including prototyping, testing, and production. With our end-to-end design capabilities, we can help you take your ideas from concept to completion, ensuring that your final product meets your exact specifications and is ready for market.",
 		"When it comes to finding the perfect 3D modeling design service for your needs, it's important to choose a company that has the experience, skills, and technology necessary to turn your vision into a reality. Our company provides high-quality 3D modeling design services to clients. wide range of industries, from product design to architecture and everything in between."
+	],
+	"gallery": [
+		{
+			"title": "Interior",
+			"images": [
+				"https://ik.imagekit.io/xrw/impigo/demo.gif",
+				"https://ik.imagekit.io/xrw/impigo/interior1.jpg",
+				"https://ik.imagekit.io/xrw/impigo/interior2.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/interior3.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/interior4.gif",
+				"https://ik.imagekit.io/xrw/impigo/interior5.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/interior6.jpeg"
+			]
+		},
+		{
+			"title": "Architecture",
+			"images": [
+				"https://ik.imagekit.io/xrw/impigo/architecture1.png",
+				"https://ik.imagekit.io/xrw/impigo/architecture2.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/architecture3.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/architecture4.png",
+				"https://ik.imagekit.io/xrw/impigo/architecture5.png",
+				"https://ik.imagekit.io/xrw/impigo/architecture6.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/architecture7.png",
+				"https://ik.imagekit.io/xrw/impigo/architecture8.png",
+				"https://ik.imagekit.io/xrw/impigo/architecture9.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/architecture10.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/architecture11.png",
+				"https://ik.imagekit.io/xrw/impigo/architecture12.png"
+			]
+		},
+		{
+			"title": "Game Assets",
+			"images": [
+				"https://ik.imagekit.io/xrw/impigo/GameAssets.gif",
+				"https://ik.imagekit.io/xrw/impigo/anime1.png",
+				"https://ik.imagekit.io/xrw/impigo/anime2.png",
+				"https://ik.imagekit.io/xrw/impigo/anime3.png",
+				"https://ik.imagekit.io/xrw/impigo/anime4.png",
+				"https://ik.imagekit.io/xrw/impigo/anime5.png",
+				"https://ik.imagekit.io/xrw/impigo/skull.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/colourGrade.png",
+				"https://ik.imagekit.io/xrw/impigo/girl.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/treeBall.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/game.jpeg"
+			]
+		},
+		{
+			"title": "Product Design",
+			"images": [
+				"https://ik.imagekit.io/xrw/impigo/shoes1.jpg",
+				"https://ik.imagekit.io/xrw/impigo/shoes2.jpg",
+				"https://ik.imagekit.io/xrw/impigo/glasses1.jpg",
+				"https://ik.imagekit.io/xrw/impigo/glasses2.jpg",
+				"https://ik.imagekit.io/xrw/impigo/furniture1.jpg",
+				"https://ik.imagekit.io/xrw/impigo/drone.jpeg",
+				"https://ik.imagekit.io/xrw/impigo/FashionShoes.png",
+				"https://ik.imagekit.io/xrw/impigo/FashionBag.png",
+				"https://ik.imagekit.io/xrw/impigo/bottle.jpg"
+			]
+		},
+		{
+			"title": "Others",
+			"images": ["https://ik.imagekit.io/xrw/impigo/animation.gif", "https://ik.imagekit.io/xrw/impigo/CAD.png"]
+		}
 	]
 }
