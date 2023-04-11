@@ -35,7 +35,7 @@ export default function Welcome() {
 				</div>
 			</div>
 
-			<h2 className="text-center text-red-500 text-xl sm:text-2xl font-semibold my-11">
+			<h2 className="text-center text-red-500 text-xl sm:text-2xl font-semibold mb-16 py-4">
 				&quot;We believe in the power of collaboration and teamwork to achieve our goals.&quot;
 			</h2>
 
