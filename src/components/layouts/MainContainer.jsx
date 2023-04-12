@@ -145,13 +145,13 @@ export default function MainContainer({ children }) {
 							href="https://instagram.com/impigo.designs?igshid=YmMyMTA2M2Y="
 							className="transition-all text-red-500 hover:text-blue-500 scale-105 hover:scale-110"
 						>
-							<FaLinkedin />
+							<RiInstagramFill />
 						</Link>
 						<Link
 							href="https://www.linkedin.com/company/impigo-designs/"
 							className="transition-all text-red-500 hover:text-blue-500 scale-105 hover:scale-110"
 						>
-							<RiInstagramFill />
+							<FaLinkedin />
 						</Link>
 						<Link href="https://twitter.com/Impig0" className="transition-all text-red-500 hover:text-blue-500 scale-105 hover:scale-110">
 							<FaTwitter />
