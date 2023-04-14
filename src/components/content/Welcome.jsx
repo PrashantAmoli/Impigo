@@ -24,7 +24,7 @@ export default function Welcome() {
 											<button className="btn btn-primary">Explore</button>
 										</Link>
 
-										<Link href="/home" className=" font-semibold leading-6 text-gray-300">
+										<Link href="/contact" className=" font-semibold leading-6 text-gray-300">
 											Speak with us <span aria-hidden="true">→</span>
 										</Link>
 									</div>
