@@ -1,7 +1,72 @@
+import Script from 'next/script';
 import { useState } from 'react';
 // import { ChevronDownIcon } from '@heroicons/react/20/solid';
 // import { Switch } from '@headlessui/react';
 import { BiChevronDown } from 'react-icons/bi';
+import { useEffect } from 'react';
+
+export function TallyForm() {
+	useEffect(() => {
+		const script = document.createElement('script');
+		script.src = 'https://tally.so/widgets/embed.js';
+		// script.async = true;
+		document.body.appendChild(script);
+		// Tally.loadEmbeds();
+
+		return () => {
+			document.body.removeChild(script);
+		};
+	}, []);
+
+	return (
+		<div>
+			<h1>My Component</h1>
+			<div className="tally-embed" data-url="https://tally.so/3qLXLO" />
+			{/* <iframe
+				data-tally-src="https://tally.so/embed/3qLXLO?hideTitle=1&transparentBackground=1&dynamicHeight=1"
+				loading="lazy"
+				width="100%"
+				height="200"
+				title="Get in touch"
+				className="bg-transparent max-w"
+			></iframe> */}
+
+			<br />
+			{/* <div className="relative overflow-y-hidden">
+				<iframe
+					data-tally-src="https://tally.so/r/3qLXLO?transparentBackground=0"
+					width="100%"
+					height="100%"
+					title="Get in touch"
+					className="bg-transparent w-full h-[80vh] "
+				></iframe>
+			</div> */}
+
+			{/* <div
+					className="bg-transparent"
+					dangerouslySetInnerHTML={{
+						__html:
+							'<iframe data-tally-src="https://tally.so/r/3qLXLO?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Get in touch"></iframe>',
+					}}
+				/> */}
+
+			<Script
+				id="tally-js"
+				src="https://tally.so/widgets/embed.js"
+				onLoad={() => {
+					Tally.loadEmbeds();
+				}}
+			/>
+			<iframe
+				data-tally-src="https://tally.so/embed/3qLXLO?hideTitle=1&transparentBackground=1&dynamicHeight=1"
+				width="100%"
+				height="284"
+				title="Contact form"
+				className="bg-transparent"
+			></iframe>
+		</div>
+	);
+}
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ');
@@ -196,6 +261,8 @@ export default function ContactForm() {
 				<a href="mailto:info@impigo.com">
 					<h4 className="text-center my-2 text-sm animate-pulse">info@impigo.com</h4>
 				</a>
+
+				<TallyForm />
 			</div>
 
 			{/* Put this part before </body> tag */}

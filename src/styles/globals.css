@@ -17,6 +17,9 @@
 	.gradient_white {
 		@apply bg-gradient-to-tr from-slate-900/95 via-sky-800/95 to-blue-900/80;
 	}
+	.gradient_blue {
+		@apply bg-gradient-to-tr from-slate-900/95 via-sky-900 to-slate-900/95;
+	}
 	.shadow_blue {
 		@apply shadow-blue-600/30 hover:shadow-blue-600/30 shadow-xl hover:shadow-2xl;
 	}
@@ -24,6 +27,12 @@
 
 * {
 	font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+	background: transparent;
+	background-color: midnightblue;
 }
 
 .hide-scrollbar::-webkit-scrollbar {

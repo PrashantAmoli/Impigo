@@ -18,7 +18,7 @@ export default function Stats() {
 	return (
 		<>
 			{/* CTA Section */}
-			<div className="px-1.5 py-8">
+			<div className="px-1.5 py-8" id="contact">
 				<div className="mx-auto w-full overflow-hidden rounded-3xl max-w-7xl py-0 sm:px-6 sm:py-32 lg:px-8 shadow_blue shadow-lg hover:shadow-xl">
 					<div className="relative isolate overflow-hidden w-full bg-gray-900 px-2 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 min-h-screen sm:min-h-[66vh]">
 						<svg
