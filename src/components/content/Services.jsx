@@ -92,7 +92,7 @@ export default function Services() {
 											{service.tags.map((tag, index) => (
 												<span
 													key={index}
-													className="inline-block px-2 py-1 text-xs font-semibold text-white bg-blue-900 rounded-full mr-2 mb-2 hover:scale-105 transition-all duration-300"
+													className="inline-block px-2 py-1 text-xs font-semibold text-white bg-blue-900 rounded-full mr-2 mb-2 hover:scale-105 transition-all duration-300 shadow_blue"
 												>
 													{tag}
 												</span>
@@ -132,7 +132,7 @@ export default function Services() {
 											{service.tags.map((tag, index) => (
 												<span
 													key={index}
-													className="inline-block px-2 py-1 text-xs font-semibold text-white bg-blue-900 rounded-full mr-2 mb-2 hover:scale-105 transition-all duration-300"
+													className="inline-block px-2 py-1 text-xs font-semibold text-white bg-blue-900 rounded-full mr-2 mb-2 hover:scale-105 transition-all duration-300 shadow_blue"
 												>
 													{tag}
 												</span>
