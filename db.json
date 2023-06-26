@@ -1,25 +1,27 @@
 {
 	"services": [
 		{
-			"title": "3D Product Designs and AR Integration",
+			"title": "3D Product Design & AR Integration",
 			"images": ["https://ik.imagekit.io/xrw/impigo/furniture1.jpg"],
+			"tags": ["Product Design", "AR Integraion", "Furniture", "Home Decor", "Glasses", "Shoes", "Clothing", "Jewellery", "Bags"],
+			"models": ["https://ik.imagekit.io/xrw/shoellashoX/asus-gaming-chair.glb"],
 			"content": [
-				"3D product design creates accurate and detailed digital models for product development.",
-				"Refine every aspect of the product before moving to production using 3D design.",
-				"AR integration brings 3D designs to life in the real world.",
+				"Create detailed 3D models for product development.",
+				"Refine every aspect before moving to production.",
+				"Immersive AR experience brings 3D designs to life.",
 				"Customers can interact with and experience products in a new way using AR.",
-				"Combining 3D product design and AR integration results in visually stunning and functional products.",
-				"Collaboration and teamwork are essential for achieving product development goals."
+				"3D & AR results in an average of 2x engagement time resulting in higher intent to purchase"
 			],
 			"description": "3D product design and AR integration are powerful tools that can take your product development process to the next level. With the 3D design, you can create accurate and detailed digital models Photo/Logo 'We believe in the power of collaboration and teamwork to achieve our goals.' of your products, allowing you to visualize and refine every aspect before moving to production. And with AR integration, you can bring those designs to life in the real world, allowing your customers to interact with and experience your products in an entirely new way. By combining these technologies, you can create products that are not only visually stunning but also highly functional and user-friendly."
 		},
 		{
 			"title": "Game Assets",
 			"images": ["https://ik.imagekit.io/xrw/impigo/GameAssets.gif"],
+			"tags": ["3D Asset Design", "3D Asset Optimization", "3D Asset Creation"],
 			"content": [
 				"Elevate your gaming experience with visually stunning gameplay!",
-				"Expert 3D asset designers create high-quality optimized models for seamless gameplay.",
-				"Enjoy unforgettable gaming experiences with optimized 3D assets.",
+				"Get 3D asset designed from expert designers",
+				"High-quality optimized models for seamless gameplay.",
 				"Immerse yourself in new worlds with optimized 3D assets!"
 			],
 			"description": "Creating a visually stunning and immersive gaming experience. Whether it's characters, environments, or props, every element of a game needs to be designed with meticulous attention to detail to ensure that it fits seamlessly into the game world. 3D asset designers use specialized software to create high-quality models that are optimized for use in games, considering factors such as polygon count, texture resolution, and performance requirements. With the right 3D assets, game developers can create games that transport players to new worlds and provide them with unforgettable gaming experiences."
@@ -27,49 +29,68 @@
 		{
 			"title": "Fashion",
 			"images": ["https://ik.imagekit.io/xrw/impigo/shoes1.jpg"],
+			"models": ["https://ik.imagekit.io/xrw/shoellashoX/eyeglass-men-dual-rim-eyenic-frame-silver-blue.glb"],
+			"tags": ["Glasses", "Shoes", "Clothing", "Jewellery", "Bags", "Caps", "Watches", "Accessories"],
 			"content": [
-				"Elevate your brand with our expert design services for shoes, clothing, jewelry, and bags!",
-				"Our designers create visually stunning, functional, and durable products using current trends, materials, and construction techniques.",
-				"Collaborate with us to create designs that meet your specific needs and appeal to your target customers.",
-				"Differentiate yourself in a crowded marketplace, attract new customers, and create buzz around your brand with our design services!"
+				"Elevate your brand with expert 3D design services for fashion accessories",
+				"Create visually stunning, functional, & durable products with our designers",
+				"Use current trends, materials, & construction techniques for your designs",
+				"Designs that meet your specific needs & appeal to your target customers",
+				"Differentiate yourself in a crowded marketplace with our design services",
+				"Attract new customers & create buzz around your brand with our designs",
+				"3D & AR results in an average of 2x engagement time resulting in higher intent to purchase"
 			],
 			"description": "Expertise in Shoes, clothing, jewellery, and bag design services to create unique and appealing products. Designers use their knowledge of current trends, materials, and construction techniques to create products that are not only visually stunning but also highly functional and durable. They work closely with businesses to understand their specific needs and requirements and create designs that meet those needs while also appealing to their target customers. With the right design services, businesses can create products that stand out in a crowded marketplace, attract new customers, and generate buzz around their brand"
 		},
 		{
 			"title": "CAD Models",
 			"images": ["https://ik.imagekit.io/xrw/impigo/CAD.png"],
+			"tags": ["3D CAD Modelling & Design Services", "2D CAD Modelling & Design Services"],
 			"content": [
-				"Save time and money with accurate CAD models for product development and testing!",
-				"Showcase your products to customers and stakeholders with realistic visualizations created using CAD models.",
+				"Save time & money with accurate CAD models for product development & testing!",
+				"Realistic product visualization for customers & stakeholders",
 				"Make informed decisions during the product development process with CAD modelling services.",
 				"Stay ahead of the competition by delivering high-quality products using CAD modelling services!"
 			],
 			"description": "CAD models to create prototypes, simulate designs, and facilitate product development and testing. These models can also be used to create realistic visualizations of products, allowing businesses to showcase their products to customers and stakeholders before they are manufactured. With CAD modelling services, businesses can save time and money by creating accurate models that can be easily modified and refined throughout the product development process."
 		},
 		{
-			"title": "Architect",
+			"title": "Architectural Design",
 			"images": ["https://ik.imagekit.io/xrw/impigo/interior4.gif"],
+			"tags": ["Interior Design", "Exterior Design", "Plan Layout", "3D House Designing", "Space Planning"],
 			"content": [
-				"Our expert architectural design services create beautiful and functional spaces tailored to your specific needs.",
-				"Get comfortable and visually appealing spaces reflecting your style and preferences with our interior design services.",
+				"Our experts design beautiful and functional spaces tailored to your specific needs.",
+				"Get visually appealing spaces reflecting your style & preferences with our interior design services.",
 				"Make a statement with visually striking building facades using our exterior design services.",
 				"Optimize your space for efficiency and flow with our plan layout services.",
-				"Visualize your designs in 3D for a more accurate and realistic representation with our 3D house designing services.",
-				"Transform your space into a practical and aesthetically pleasing environment with our architectural design services."
+				"Visualize your designs in 3D for a more accurate and realistic representation.",
+				"Transform your space into a practical & aesthetically pleasing environment."
 			],
 			"description": "Architectural design services with the expertise needed to create beautiful, functional spaces that meet their specific needs and requirements. Interior design services focus on creating comfortable, visually appealing spaces that are tailored to the client's style and preferences. Exterior design services focus on creating visually striking building facades that make a strong statement and create a lasting impression. Plan layout services focus on creating efficient and effective use of space, with a focus on functionality and flow. 3D house designing services allow clients to visualize their designs in 3D, providing a more accurate and realistic representation of the final product. With the right architectural design services, businesses and individuals can create spaces that are not only aesthetically pleasing but also highly functional and practical."
 		},
 		{
 			"title": "Animation",
 			"images": ["https://ik.imagekit.io/xrw/impigo/animation.gif"],
+			"tags": [
+				"2D & 3D Animation",
+				"Rigging",
+				"Character Animation",
+				"Product Animation",
+				"Architectural Animation",
+				"Medical Animation",
+				"Industrial Animation",
+				"Mechanical Animation",
+				"Walkthrough Animation",
+				"Explainer Video"
+			],
 			"content": [
-				"Our animation services bring characters, objects, and scenes to life, creating engaging and captivating content for a variety of industries.",
-				"With specialized software and skilled animators, we can help you create high-quality 3D models and animations that will make your brand stand out.",
-				"Our rigging services create digital skeletons and controls, allowing for natural and believable movements of 3D models.",
-				"Texturing services add realistic details like colors and surface textures, making your content look more natural and visually appealing.",
-				"Our services are perfect for gaming, film, product design, advertising, and more, giving you endless possibilities to create immersive, realistic, and highly engaging content.",
-				"Our team works closely with you to understand your needs and goals, ensuring that the final product meets your specific requirements.",
-				"Let us help you achieve your marketing and branding goals with our animation services, creating content that communicates complex ideas in a simple and engaging way."
+				"Bring characters, objects, and scenes to life.",
+				"Our skilled animators create high-quality 3D animations.",
+				"Rigging creates natural & believable movements of 3D models.",
+				"Texturing creates visually appealing content with realistic details.",
+				"Perfect for gaming, film, product design, advertising, and more.",
+				"Communicate complex ideas in a simple yet engaging way.",
+				"Achieve your marketing & branding goals with our animation services."
 			],
 			"description": "Animation services provide businesses with the tools and expertise needed to create engaging, visually appealing content that can be used for a variety of purposes. Whether it's creating animated explainer videos to showcase a product or service, developing character animations for games and movies, or designing visual effects for TV shows and films, animation services offer a wide range of options. Skilled animators use specialized software to bring characters, objects, and scenes to life, creating compelling narratives that capture the viewer's attention. With the right animation services, businesses can create content that stands out in a crowded market, communicates complex ideas in a simple and engaging way, and ultimately helps them achieve their marketing and branding goals. Animation, rigging, and texturing services for creating high-quality 3D models and animations that are used in a variety of industries, from gaming and film to product design and advertising. Animation services bring objects, characters, and scenes to life, creating engaging content that captivates audiences. Rigging services involve the creation of digital skeletons and controls that enable animators to move and manipulate 3D models in a natural and believable way. Texturing services involve adding realistic details to 3D models, such as colours, patterns, and surface textures, making them look more natural and visually appealing. With the right animation, rigging, and texturing services, businesses can create immersive, realistic, and highly engaging content that captivates their target audiences and helps them achieve their marketing and branding goals."
 		}
