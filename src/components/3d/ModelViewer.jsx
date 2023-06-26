@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import { TbAugmentedReality } from 'react-icons/tb';
 
-export default function ModelViewer({ src }) {
+export default function ModelViewer({ src, poster }) {
 	return (
-		<div className="w-full min-h-[77vh] flex justify-center cursor-grab  bg-black/20 rounded-3xl">
+		<div className="w-full min-w-[280px] xl:min-w-[320px] min-h-[60vh] flex justify-center cursor-grab  rounded-3xl overflow-visible">
 			{/* <button
 				className="absolute z-10 w-11 h-11 bottom-1 right-1"
 				onClick={() => (skybox === '' ? setSkybox('/models/venice_sunset_1k.hdr') : setSkybox(''))}
@@ -14,11 +14,11 @@ export default function ModelViewer({ src }) {
 				src={src}
 				skybox-image={''}
 				ios-src=""
-				poster="/woodblocks.gif"
-				alt="Asian Shoes 3D"
+				poster={poster || '/ImpigoLogo.png'}
+				alt="3D Model"
 				style={{
 					width: '100%',
-					minHeight: '50vh',
+					minHeight: '60vh',
 					outline: 'none',
 					display: 'flex',
 					justifyContent: 'center',

@@ -7,3 +7,6 @@ export { default as ContactFrom } from './forms/ContactForm';
 
 export { default as GradientBox } from './layouts/GradientBox';
 export { default as MainContainer } from './layouts/MainContainer';
+
+// animations
+export { default as Reveal } from './animations/Reveal';
